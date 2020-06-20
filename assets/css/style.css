@@ -102,15 +102,15 @@ imgTwins {
    display: flex;
    align-items: flex-start;
    flex-wrap: wrap;
-   height: 100%;
+   /* height: 100%; */
 
    margin-left: 8%;
 }
 .quartett h4 {
-   width: 2%;
+   width: 10%;
    font-size: 1em;
 }
 .quartett p {
-   width: 45%;
+   width: 40%;
    font-size: 1em;
 }
