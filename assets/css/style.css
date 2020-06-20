@@ -100,12 +100,15 @@ imgTwins {
 }
 #icons {
    display: flex;
-   justify-content: flex-start;
    align-items: flex-start;
+
+   flex-wrap: wrap;
+   height: 10%;
+
    margin-left: 8%;
 }
 #askWhy h4,
 p {
-   width: 60%;
+   width: 25%;
    font-size: 1em;
 }
