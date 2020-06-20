@@ -52,7 +52,7 @@ imgTwins {
 #betterDesigner {
    margin-left: 8%;
 }
-#betterDesigner h1 {
+#betterDesigner h2 {
    margin-top: 7%;
    width: 30%;
    font-size: 3em;
@@ -98,17 +98,19 @@ imgTwins {
    width: 28%;
    font-size: 3em;
 }
-#icons {
+.quartett {
    display: flex;
    align-items: flex-start;
-
    flex-wrap: wrap;
-   height: 10%;
+   height: 100%;
 
    margin-left: 8%;
 }
-#askWhy h4,
-p {
-   width: 25%;
+.quartett h4 {
+   width: 2%;
+   font-size: 1em;
+}
+.quartett 5 {
+   width: 45%;
    font-size: 1em;
 }
