@@ -292,7 +292,17 @@ span {
    margin-top: 5%;
    margin-left: 13%;
    font-size: 1.3em;
+   border-radius: 5px;
 }
+#challenge input:last-of-type:hover {
+   background-image: linear-gradient(
+      to right,
+      rgba(255, 53, 113, 1) 0%,
+      rgba(60, 48, 255, 1) 100%
+   );
+   transition: background-color 0.3s ease-in-out;
+}
+
 footer {
    margin-left: 5%;
    margin-top: 5%;
