@@ -6,10 +6,6 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
-imgTwins {
-   position: relative;
-}
-
 .under {
    position: absolute;
    right: 0px;
@@ -263,4 +259,18 @@ span {
 #yourWork img {
    width: 50px;
    height: 50px;
+}
+#challenge {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#challenge input {
+   width: 400px;
+   border: none;
+   height: 30px;
+   text-align: center;
+   color: #dddddd;
+   font-size: 1em;
 }
