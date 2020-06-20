@@ -28,16 +28,18 @@ imgTwins {
 }
 #logo {
    display: flex;
-   margin-left: 2%;
+   margin-left: 1%;
    background: transparent;
 }
 #logo svg {
+   position: fixed;
    width: 50px;
    font-weight: 800;
    height: 50px;
 }
 #logo div {
    padding-left: 1%;
+   margin-left: 1.5%;
 }
 #logo h1 {
    font-size: 2em;
