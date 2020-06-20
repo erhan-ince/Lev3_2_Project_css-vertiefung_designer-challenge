@@ -243,8 +243,6 @@ span {
 }
 #yourWork {
    display: flex;
-   /* justify-content: center;
-   align-items: center; */
    flex-direction: column;
    width: 20%;
    line-height: 50px;
@@ -265,12 +263,43 @@ span {
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   margin-top: 5%;
 }
-#challenge input {
-   width: 400px;
+#challenge h1 {
+   font-size: 5em;
+}
+#challenge p {
+   font-size: 1.5em;
+   font-weight: 800;
+   font-weight: 300;
+}
+#challenge input:first-of-type {
+   width: 450px;
    border: none;
-   height: 30px;
+   height: 80px;
    text-align: center;
+   background-color: #fff;
    color: #dddddd;
-   font-size: 1em;
+   font-size: 1.5em;
+}
+#challenge input:last-of-type {
+   width: 300px;
+   border: none;
+   height: 80px;
+   text-align: center;
+   color: #fff;
+   background-color: #ff3571;
+   margin-top: 5%;
+   margin-left: 13%;
+   font-size: 1.3em;
+}
+footer {
+   margin-left: 5%;
+   margin-top: 5%;
+   font-size: 1.3em;
+   font-weight: 100;
+}
+footer span {
+   display: inline-block;
+   margin-left: 1%;
 }
