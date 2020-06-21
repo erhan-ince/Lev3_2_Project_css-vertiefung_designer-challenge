@@ -89,9 +89,9 @@ body {
    margin: 0;
 }
 #idea p {
-   width: 23%;
+   width: 35%;
    font-weight: 300;
-   font-size: 1em;
+   font-size: 1.5em;
 }
 #weeks {
    margin-left: 8%;
@@ -109,7 +109,6 @@ body {
    flex-wrap: wrap;
    height: 100%;
    margin-left: 8%;
-   /* margin-right: 10%; */
 }
 #icons p {
    width: 45%;
@@ -159,8 +158,6 @@ span {
 }
 #eyes {
    display: flex;
-   /* justify-content: center;
-   align-items: center; */
    flex-direction: column;
    width: 20%;
    line-height: 50px;
